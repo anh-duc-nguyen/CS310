@@ -1,6 +1,9 @@
 import random
 
 def insertion_sort(alist):
+	'''
+	a really really bad sorting algorithm
+	'''
 	LEN = len(alist)
 	for i in range(LEN):
 		key = alist[i]
