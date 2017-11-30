@@ -18,7 +18,7 @@ def insertion_sort(alist):
 def test():
 	alist =[]
 	for i in range(1000):
-		alist.append(random.randint(1,10000))
+		alist.append(random.randint(1,100))
 	print ('unsorted list is: ',alist)
 	print ('sorting')
 	alist = insertion_sort(alist)
